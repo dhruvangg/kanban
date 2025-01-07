@@ -1,0 +1,70 @@
+.button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.new-board-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-board-modal-content {
+    background-color: var(--background-color);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 0 2px var(--secondary-text);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.new-board-modal-header {
+    color: var(--primary-text);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.new-board-modal-body {
+    margin-bottom: 1rem;
+}
+
+.new-board-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.new-board-modal-footer button {
+    margin-left: 0.5rem;
+}
+
+.add-board {
+    background-color: var(--action-color);
+    color: var(--background-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: all ease 300ms;
+}
+
+.add-board:active, .add-board:focus {
+    outline: none;
+}
+
+.new-board-modal-body input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid var(--secondary-text);
+}
+
+

@@ -1,0 +1,17 @@
+.kanban-card {
+    position: relative;
+    cursor: grab;
+}
+
+.kanban-card-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    cursor: pointer;
+}
+
+.kanban-card-close svg {
+    height: 1.25rem;
+    width: 1.25rem;
+    font-weight: 700;
+}

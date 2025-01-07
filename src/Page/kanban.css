@@ -1,0 +1,37 @@
+.kanban-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.kanban-column {
+    background-color: var(--background-color);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.kanban-column-header {
+    color: var(--primary-text);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.kanban-card {
+    padding: 0.5rem;
+    box-shadow: 0 0 2px var(--secondary-text);
+    border-radius: 0.25rem;
+    margin-bottom: 0.75rem;
+    transition: all ease 300ms;
+}
+
+.kanban-column .kanban-card {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+.kanban-card:hover {
+    box-shadow: 0 0 5px var(--secondary-text);
+    transition: all ease 300ms;
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.create-task {
+    display: flex;
+    max-width: 100%;
+}
+
+.create-task .create-task-input {
+    margin-right: 0.5rem;
+}

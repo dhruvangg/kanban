@@ -1,0 +1,8 @@
+.kanban-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.kanban-column-footer { 
+    margin-top: auto;
+}
