@@ -10,29 +10,29 @@
     "orientation": "portrait-primary",
     "icons": [
         {
-            "src": "/kanban-256x256.png",
+            "src": "/kanban/kanban-256x256.png",
             "sizes": "256x256",
             "type": "image/png"
         },
         {
-            "src": "/kanban-512x512.png",
+            "src": "/kanban/kanban-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
     ],
     "screenshots": [
         {
-            "src": "/kanban-screenshot-620x620.png",
+            "src": "/kanban/kanban-screenshot-620x620.png",
             "sizes": "620x620",
             "type": "image/png"
         },
         {
-            "src": "/kanban-screenshot-512x512.png",
+            "src": "/kanban/kanban-screenshot-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         },
         {
-            "src": "/kanban-screenshot-wide.png",
+            "src": "/kanban/kanban-screenshot-wide.png",
             "sizes": "932x475",
             "form_factor": "wide",
             "type": "image/png"
