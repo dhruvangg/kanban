@@ -6,7 +6,7 @@
     "background_color": "#3A6EA5",
     "display": "standalone",
     "scope": "/",
-    "start_url": "/",
+    "start_url": "/kanban/",
     "orientation": "portrait-primary",
     "icons": [
         {
