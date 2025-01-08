@@ -1,0 +1,41 @@
+{
+    "name": "Kanban Board",
+    "short_name": "Kanban",
+    "description": "Kanban Board for managing tasks and projects",
+    "theme_color": "#3A6EA5",
+    "background_color": "#3A6EA5",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/kanban-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/kanban-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/kanban-screenshot-620x620.png",
+            "sizes": "620x620",
+            "type": "image/png"
+        },
+        {
+            "src": "/kanban-screenshot-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/kanban-screenshot-wide.png",
+            "sizes": "932x475",
+            "form_factor": "wide",
+            "type": "image/png"
+        }
+    ]
+}

@@ -1,6 +1,7 @@
 .kanban-column {
     display: flex;
     flex-direction: column;
+    height: 500px;
 }
 
 .kanban-column-footer { 
